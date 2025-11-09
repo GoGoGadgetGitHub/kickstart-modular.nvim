@@ -3,7 +3,9 @@ return {
   name = 'neopywal',
   lazy = false,
   priority = 1000,
-  opts = {},
+  opts = {
+    transparent = true,
+  },
 
   init = function()
     vim.cmd.colorscheme 'neopywal'
